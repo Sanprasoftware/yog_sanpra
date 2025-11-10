@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-08 18:37:36.485551",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "specification",
+  "quantity",
+  "remark",
+  "rating__dimension"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Specification"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "default": "0",
+   "fieldname": "remark",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Remark"
+  },
+  {
+   "fieldname": "rating__dimension",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Rating / Dimension"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-09 12:03:58.544215",
+ "modified_by": "saifakazi02@gmail.com",
+ "module": "Yogtech Sanpra",
+ "name": "Standard Condition WO",
+ "owner": "saifakazi02@gmail.com",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
