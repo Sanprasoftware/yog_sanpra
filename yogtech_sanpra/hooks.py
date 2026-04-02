@@ -140,13 +140,20 @@ doctype_js = {
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Appraisal Template": {
+        "before_save": "yogtech_sanpra.public.py.custom_appraisal_template.validate_weightage"
+		# "on_update": "method",
+		# "on_cancel": "method",
+		# "on_trash": "method"
+	},
+    "Appraisal": {
+        "before_insert": "yogtech_sanpra.public.py.custom_appraisal.fetch_template_goals"
+    },
+    "Shift Type":{
+        "before_save":"yogtech_sanpra.hr_case.shift_type.work_hrs_cal"
+    }
+}
 
 # Scheduled Tasks
 # ---------------
