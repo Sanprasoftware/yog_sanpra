@@ -1,0 +1,109 @@
+{
+ "app": "yogtech_sanpra",
+ "charts": [
+  {
+   "chart_name": "Sales Order Trends",
+   "label": "Sales Order Trends"
+  },
+  {
+   "chart_name": "Incoming Leads",
+   "label": "Incoming Leads"
+  },
+  {
+   "chart_name": "Purchase Order Trends",
+   "label": "Purchase Order Trends"
+  },
+  {
+   "chart_name": "Total Sales Month Wise",
+   "label": "Total Sales Month Wise"
+  },
+  {
+   "chart_name": "Sales Order Analysis",
+   "label": "Sales Order Analysis"
+  },
+  {
+   "chart_name": "Purchase Order Analysis",
+   "label": "Purchase Order Analysis"
+  }
+ ],
+ "content": "[{\"id\":\"IzQ_B9PEiJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\">Dashboard</span>\",\"col\":12}},{\"id\":\"S-XAI6Hrnt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Orders to Deliver\",\"col\":4}},{\"id\":\"mY5TUccGrS\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Orders to Bill\",\"col\":4}},{\"id\":\"oTi9RLy9GL\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Customers\",\"col\":4}},{\"id\":\"GAtzhSgvom\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Annual Sales(This Year)\",\"col\":3}},{\"id\":\"yyF2P2lFmU\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Sales (Last 3 Months)\",\"col\":3}},{\"id\":\"oSuTgr2clh\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Sales (Current Month)\",\"col\":3}},{\"id\":\"-eJGuMg5x3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Sales (Previous Month)\",\"col\":3}},{\"id\":\"R6w56akfEs\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Net Sales (This Year)\",\"col\":3}},{\"id\":\"bBJQh-X9qt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Net Sales (Last 3 Months)\",\"col\":3}},{\"id\":\"uBqXr64Olp\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Net Sales (Current Month)\",\"col\":3}},{\"id\":\"zl17raIi6N\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Net Sales (Previous Month)\",\"col\":3}},{\"id\":\"mcpu0gO-5X\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Trends\",\"col\":6}},{\"id\":\"kwMa6NmQ_B\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Purchase Order Trends\",\"col\":6}},{\"id\":\"U9fpFiwBC_\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Incoming Leads\",\"col\":12}},{\"id\":\"7ggowP4TPY\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Total Sales Month Wise\",\"col\":12}},{\"id\":\"In3FTsWY97\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Analysis\",\"col\":6}},{\"id\":\"ps2BsOF-dw\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Purchase Order Analysis\",\"col\":6}}]",
+ "creation": "2026-05-18 17:55:50.669711",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "non-profit",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Yogtech-Dashboard",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2026-05-18 17:55:50.669711",
+ "modified_by": "yogesh@sanpra.co.in",
+ "module": "Yogtech Sanpra",
+ "name": "Yogtech-Dashboard",
+ "number_cards": [
+  {
+   "label": "Net Sales (This Year)",
+   "number_card_name": "Net Sales (This Year)"
+  },
+  {
+   "label": "Total Annual Sales(This Year)",
+   "number_card_name": "Total Annual Sales(This Year)"
+  },
+  {
+   "label": "Sales Orders to Deliver",
+   "number_card_name": "Sales Orders to Deliver"
+  },
+  {
+   "label": "Sales Orders to Bill",
+   "number_card_name": "Sales Orders to Bill"
+  },
+  {
+   "label": "Total Sales (Last 3 Months)",
+   "number_card_name": "Total Sales (Last 3 Months)"
+  },
+  {
+   "label": "Net Sales (Last 3 Months)",
+   "number_card_name": "Net Sales (Last 3 Months)"
+  },
+  {
+   "label": "Net Sales (Current Month)",
+   "number_card_name": "Net Sales (Current Month)"
+  },
+  {
+   "label": "Active Customers",
+   "number_card_name": "Active Customers"
+  },
+  {
+   "label": "Total Sales (Current Month)",
+   "number_card_name": "Total Sales (Current Month)"
+  },
+  {
+   "label": "Total Sales (Previous Month)",
+   "number_card_name": "Total Sales (Previous Month)"
+  },
+  {
+   "label": "Net Sales (Previous Month)",
+   "number_card_name": "Net Sales (Previous Month)"
+  }
+ ],
+ "owner": "yogesh@sanpra.co.in",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Accounts Manager"
+  },
+  {
+   "role": "All"
+  }
+ ],
+ "sequence_id": 57.0,
+ "shortcuts": [],
+ "title": "Yogtech-Dashboard",
+ "type": "Workspace"
+}

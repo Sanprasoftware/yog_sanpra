@@ -6,9 +6,9 @@ app_email = "sanprasoftwares@gmail.com"
 app_license = "mit"
 
 # Apps
-# ------------------
+# ------------------ 
 
-# required_apps = []
+# required_apps = [] 
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -25,7 +25,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/yogtech_sanpra/css/yogtech_sanpra.css"
+# app_include_css = "/assets/yogtech_sanpra/css/yogtech_dashboard.css?v=20260429-6"
 # app_include_js = "/assets/yogtech_sanpra/js/yogtech_sanpra.js"
 
 # include js, css files in header of web template
@@ -44,6 +44,7 @@ app_license = "mit"
 
 # include js in doctype views  
 doctype_js = {
+    "Appraisal": "public/js/appraisal.js",
     "Work Order" : "public/js/work_order.js",
     "Stock Entry": "public/js/stock_entry.js"
 }  
@@ -148,7 +149,13 @@ doc_events = {
 		# "on_trash": "method"
 	},
     "Appraisal": {
-        "before_insert": "yogtech_sanpra.public.py.custom_appraisal.fetch_template_goals"
+        "before_save": "yogtech_sanpra.public.py.custom_appraisal.calculate_goal_scores"
+    },
+    "Goal": {
+        "on_update": "yogtech_sanpra.public.py.custom_appraisal.sync_goal_progress_to_draft_appraisals"
+    },
+    "Sales Invoice": {
+        "before_submit": "yogtech_sanpra.public.py.sales_invoice.if_checkmark_enbl"
     },
     "Shift Type":{
         "before_save":"yogtech_sanpra.hr_case.shift_type.work_hrs_cal"
@@ -251,4 +258,3 @@ doc_events = {
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-

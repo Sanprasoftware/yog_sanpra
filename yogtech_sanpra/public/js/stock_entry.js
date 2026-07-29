@@ -1,6 +1,5 @@
 frappe.ui.form.on("Stock Entry", {
     custom_additional_costs_template(frm) {
-
         if (!frm.doc.custom_additional_costs_template) {
             frm.clear_table("additional_costs");
             frm.refresh_field("additional_costs");
